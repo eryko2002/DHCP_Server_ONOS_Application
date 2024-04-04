@@ -15,7 +15,7 @@ docker pull onosproject/onos
 ```
 docker run -itd --rm -p 8181:8181 -p 8101:8101 --name onos-application onosproject/onos
 ```
-To open ONON web service type : http://localhost:8181/onos/ui - username: onos, password: rocks
+To open ONOS web service type : http://localhost:8181/onos/ui - username: onos, password: rocks
 
 ## Log into Karaf - username: karaf, password: karaf
 ```
@@ -27,7 +27,7 @@ app activate org.onosproject.openflow
 app activate org.onosproject.cli
 app activate org.onosproject.fwd
 ```
-#### To check up and running karaf apps:
+### To check up and running karaf apps:
 ```
 apps -a -s
 ```
