@@ -1,6 +1,8 @@
 # How to download:
 ## Download Mininet
-It can be downloaded from https://mininet.org/download/
+```
+git clone https://github.com/mininet/mininet
+```
 ## Download Docker
 ```
 sudo apt install docker.io -y
